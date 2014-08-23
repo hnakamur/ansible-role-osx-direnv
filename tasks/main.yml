@@ -1,0 +1,4 @@
+---
+- homebrew: name=direnv state=latest
+
+- template: src=direnv.zsh.j2 dest={{ zsh_custom_dir }}/direnv.zsh
